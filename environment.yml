@@ -1,0 +1,26 @@
+name: dtu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas=2.0
+  - numpy[version='<1.24']
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - notebook
+  - ipywidgets
+  - tqdm
+  - sympy
+  - pyarrow
+  - plotly
+  - shap
+  #- rstudio
+  - r-base=4.2.3
+  - r-tidyverse
+  - r-irkernel
+  - r-devtools
+  - mscorefonts
+  - open-fonts
+  - pymc[version='>=4']
+prefix: /opt/miniconda3/envs/dtu
